@@ -9,7 +9,7 @@ class Face_Recognition_System:
         self.root.geometry("1530x830+-5+0")
         self.root.title("Face Recognition System")
         
-        
+        print("this is the starting!")
         heading = Label(root, text="The Boss", font=("Engravers MT", 40, "bold"), fg="black", bg="yellow")
         heading.pack(pady=20)  # Centered at the top with padding
         
